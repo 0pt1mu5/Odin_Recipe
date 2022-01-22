@@ -1,0 +1,42 @@
+*{
+    margin-left: 5px;
+    padding: 5px;
+}
+h1 {
+    color:orange;
+}
+
+* {
+    color:black;
+}
+
+.fli{
+    list-style-type: circle;
+    color: red;
+        
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+table, th, td 	 {
+
+   /*border:1px solid red;*/
+
+   width: 30%;
+
+   text-align:center;
+   
+   }
+.flex-container{
+    display:flex;
+    background-color: cornflowerblue;
+    gap: 8px;
+}
+.flex-container > div {
+    
+    margin: 5px;
+    padding: 1px;
+    font size:25px;
+}
